@@ -21,8 +21,6 @@ body a{
 	-ms-transition:0.5s all;
 }
 .banner {
-  /*background: rgba(0,0,0,0) url(../images/s/4.jpg);*/
-
   background:
   /* top, transparent red */
   linear-gradient(
@@ -1063,7 +1061,15 @@ ul.social li a i.tw{
 	padding: 5em 0 2em;
 }
 .men_banner {
-	background: url(../images/3.jpg) no-repeat center top;
+  background:
+  /* top, transparent red */
+  linear-gradient(
+    rgba(0, 0, 0, 0.45),
+    rgba(0, 0, 0, 0.45)
+  ),
+  /* bottom, image */
+  url(../images/s/4.jpg);
+  transition: background-color 1s;
 	background-size: cover;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
