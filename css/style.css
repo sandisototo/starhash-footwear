@@ -546,7 +546,7 @@ ul.content-home li .item-html button:hover{
   margin-bottom:0.5em;
 }
 .middle_content p{
-  color: #999;
+  /*color: #999;*/
   font-size:1.1em;
 }
 /*--content--*/
@@ -956,7 +956,7 @@ a.create:hover, .account-top input[type="submit"]:hover, .register-but form inpu
 }
 .newsletter p {
   font-size: 1.1em;
-  color: #A5A5A5;
+  /*color: #A5A5A5;*/
   line-height: 1.5em;
   margin: 0.8em 0 0;
 }
@@ -1814,7 +1814,7 @@ a.btn.btn1.btn-primary.btn-normal.btn-inline {
 }
 .grid_1 p{
 	font-size:0.95em;
-	color:#999;
+	/*color:#999;*/
 	line-height:1.8em;
 }
 ul.iphone{
