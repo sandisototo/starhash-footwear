@@ -40,13 +40,13 @@ background: url(../images/grid_view.png)no-repeat;
 	margin: 0;
 }
 /* Clear eventual floats */
-.cbp-vm-switcher ul:before, 
-.cbp-vm-switcher ul:after { 
-	content: " "; 
-	display: table; 
+.cbp-vm-switcher ul:before,
+.cbp-vm-switcher ul:after {
+	content: " ";
+	display: table;
 }
-.cbp-vm-switcher ul:after { 
-	clear: both; 
+.cbp-vm-switcher ul:after {
+	clear: both;
 }
 .cbp-vm-switcher ul li {
 	display: block;
@@ -109,7 +109,7 @@ background: url(../images/grid_view.png)no-repeat;
 	  text-align: center;
 	  margin: 2% 2% 0 0;
 	  display: inline-block;
-	  min-height: 380px;
+	  min-height: 235px;
 	  vertical-align: top;
 	  border: 1px solid #f0f0f0;
 	  padding: 5px;
@@ -129,7 +129,7 @@ background: url(../images/grid_view.png)no-repeat;
 	margin: 0 auto;
 	color: #999;
 	font-size: 0.8125em;
-} 
+}
 .cbp-vm-view-grid .cbp-vm-price {
 	margin: 10px 0;
 	font-size: 1.5em;
@@ -176,7 +176,7 @@ background: url(../images/grid_view.png)no-repeat;
 	.cbp-vm-view-list .cbp-vm-details  {
 		width: 30%;
 	}
-} 
+}
 
 @media screen and (max-width: 57em) {
 	.cbp-vm-view-grid ul li {
@@ -233,7 +233,7 @@ background: url(../images/grid_view.png)no-repeat;
 .cbp-vm-view-grid ul li {
 	width: 47.5%;
 	min-height:330px;
-}	
+}
 .cbp-vm-view-grid ul li.last {
   margin: 2% 0 2% 0;
 }
@@ -271,4 +271,3 @@ background: url(../images/grid_view.png)no-repeat;
 	float: none;
 }
 }
-
