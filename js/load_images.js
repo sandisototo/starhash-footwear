@@ -10,9 +10,26 @@ var content = new Array() ;
               page:page
             },
             success: function (data) {
+                var R_position;
+                var price;
+                var style_no;
+                var loc = window.location.href;
+                var category  = loc.split('/').pop().split('.').shift();
+                var image_name;
+                //console.log(output);
+
 
                 $.each(data, function(i,filename) {
                     //console.log(filename); return false;
+                    image_name = filename.split('/').pop().split('.').shift();
+                    R_position = image_name.lastIndexOf("R");
+                    price = image_name.slice(R_position,R_position+4);
+                    if(price.match(/\s/g)){
+                      price +="00";
+                    }
+
+                    style_no = image_name.slice(0,R_position);
+                    console.log(style_no);
                      content = '					  <li class="last simpleCart_shelfItem">'+
                     						'	<a class="cbp-vm-image" href="'+filename+'" target="_blank"> ' +
                     						' <div class="view view-first"> ' +
@@ -25,9 +42,9 @@ var content = new Array() ;
 			                       		'        <div class="info">View</div>' +
 					                      '     </div>'+
                     					  '    <div class="product_container"> ' +
-                    						'			   <h4>Style no</h4> ' +
-                    						'			   <p>Category</p>' +
-                    						'			   <div class="price mount item_price">R99.00</div>' +
+                    						'			   <h4>'+style_no+'</h4> ' +
+                    						'			   <p>'+category+'</p>' +
+                    						'			   <div class="price mount item_price">'+price+'</div>' +
                     						'     </div> '+
                     						'    </div> ' +
                     			      '   </div> ' +
