@@ -4,7 +4,7 @@ $from       = @trim(stripslashes($_POST['emaild']));
 $subject    = @trim(stripslashes($_POST['subject']));
 
 $message    = $name." says: \r\n".@trim(stripslashes($_POST['message']));
-$to   		= 'sandisototo@gmail.com';//replace with your email
+$to   		= 'info@starhashfootwear.co.za';//replace with your email
 
 $headers =  'MIME-Version: 1.0' . "\r\n";
 $headers .= "Content-type: text/plain; charset=iso-8859-1 ". "\r\n";

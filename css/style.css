@@ -1042,6 +1042,12 @@ ul.social li a i.fb{
 ul.social li a i.tw{
 	background-position:-83px -6px;
 }
+ul.social li a i.in{
+  width:35px;
+  height:35px;
+  display: block;
+	background-position:-83px -6px;
+}
 .copy{
 	text-align:center;
 	margin-top:2em;
